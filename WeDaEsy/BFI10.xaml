@@ -1,0 +1,142 @@
+﻿<Page
+    x:Class="WeDaESy.BFI10"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <AppBarButton Icon="Back" Click="AppBarButton_Click" />
+        <RelativePanel>
+            <TextBlock x:Name="Title_BFI10" RelativePanel.AlignHorizontalCenterWithPanel="True" HorizontalAlignment="Center" Margin="0,100,0,0" FontSize="40" Text="Big Five Inventory" />
+            <TextBlock x:Name="Instructions_BFI10" RelativePanel.Below="Title_BFI10" RelativePanel.AlignHorizontalCenterWith="Title_BFI10" FontSize="20" FontStyle="Italic" Margin="0,20,0,0">
+                <TextBlock.Text>Inwieweit treffen die folgenden Aussagen auf Sie zu?</TextBlock.Text>
+            </TextBlock>
+            <TextBlock x:Name="Label_Scale" ></TextBlock>
+            <ScrollViewer Margin="0,30,0,0" RelativePanel.Below="Instructions_BFI10" HorizontalScrollMode="Auto" HorizontalScrollBarVisibility="Auto" RelativePanel.AlignHorizontalCenterWith="Title_BFI10">
+                <StackPanel>
+                    <Grid RowSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="43*" />
+                            <RowDefinition Height="43*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="1" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="2" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="3" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="4" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="5" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="6" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="7" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="8" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="9" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="10" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Column="0" Grid.RowSpan="11" BorderBrush="Black" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="1" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="2" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="3" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="4" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        
+                        <TextBlock Text="Ich..." Grid.Row="0" Grid.Column="0" FontSize="20" Padding="5 0 5 0"/>
+                        <TextBlock FontSize="20" Grid.Column="1" Grid.Row="0" Padding="5 0 5 0"><Run Text="trifft überhaupt" /><LineBreak /><Run Text="nicht zu" /></TextBlock>
+                        <TextBlock Text="trifft eher nicht zu" FontSize="20" Grid.Column="2" Grid.Row="0" Padding="5 0 5 0"/>
+                        <TextBlock FontSize="20" Grid.Column="3" Grid.Row="0" Text="weder noch" Padding="5 0 5 0"/>
+                        <TextBlock Text="eher zutreffend" FontSize="20" Grid.Column="4" Grid.Row="0" Padding="5 0 5 0"/>
+                        <TextBlock Text="trifft voll und ganz zu" FontSize="20" Grid.Column="5" Grid.Row="0" Padding="5 0 5 0"/>
+
+                        <TextBlock FontSize="20" Text="… bin eher zurückhaltend, reserviert." Margin="0,0,0,0" Grid.Row="1" Grid.RowSpan="1" />
+                        <RadioButton x:Name="BFI10_Item_1_1" GroupName="BFI10_1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BFI10_Item_Checked" />
+                        <RadioButton x:Name="BFI10_Item_1_2" GroupName="BFI10_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_1_3" GroupName="BFI10_1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_1_4" GroupName="BFI10_1" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="1" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_1_5" GroupName="BFI10_1" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… schenke anderen leicht Vertrauen, glaube an das Gute im Menschen." Grid.Row="2" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_2_1" GroupName="BFI10_2" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_2_2" GroupName="BFI10_2" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_2_3" GroupName="BFI10_2" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_2_4" GroupName="BFI10_2" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="2" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_2_5" GroupName="BFI10_2" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… bin bequem, neige zur Faulheit." Grid.Row="3" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_3_1" GroupName="BFI10_3"  Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_3_2" GroupName="BFI10_3"   Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_3_3" GroupName="BFI10_3"   Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_3_4" GroupName="BFI10_3"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="3" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_3_5" GroupName="BFI10_3"   Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… bin entspannt, lasse mich durch nichts aus der Ruhe bringen." Grid.Row="4" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_4_1" GroupName="BFI10_4"  Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_4_2" GroupName="BFI10_4"   Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_4_3" GroupName="BFI10_4"   Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_4_4" GroupName="BFI10_4"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="4" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_4_5" GroupName="BFI10_4"   Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… habe nur wenig künstlerisches Interesse." Grid.Row="5" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_5_1" GroupName="BFI10_5"  Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked" />
+                        <RadioButton x:Name="BFI10_Item_5_2" GroupName="BFI10_5"   Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_5_3" GroupName="BFI10_5"   Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_5_4" GroupName="BFI10_5"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="5" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_5_5" GroupName="BFI10_5"   Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… gehe aus mir heraus, bin gesellig." Grid.Row="6" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_6_1" GroupName="BFI10_6"  Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_6_2" GroupName="BFI10_6"   Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked" />
+                        <RadioButton x:Name="BFI10_Item_6_3" GroupName="BFI10_6"   Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked" />
+                        <RadioButton x:Name="BFI10_Item_6_4" GroupName="BFI10_6"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="6" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_6_5" GroupName="BFI10_6"   Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… neige dazu, andere zu kritisieren." Grid.Row="7" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_7_1" GroupName="BFI10_7"  Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_7_2" GroupName="BFI10_7"   Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_7_3" GroupName="BFI10_7"   Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_7_4" GroupName="BFI10_7"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="7" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_7_5" GroupName="BFI10_7"   Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… erledige Aufgaben gründlich." Grid.Row="8" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_8_1" GroupName="BFI10_8"  Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_8_2" GroupName="BFI10_8"   Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_8_3" GroupName="BFI10_8"   Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_8_4" GroupName="BFI10_8"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="8" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_8_5" GroupName="BFI10_8"   Grid.Column="5" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… werde leicht nervös und unsicher." Grid.Row="9" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_9_1" GroupName="BFI10_9"  Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_9_2" GroupName="BFI10_9"   Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_9_3" GroupName="BFI10_9"   Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_9_4" GroupName="BFI10_9"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="9" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_9_5" GroupName="BFI10_9"   Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BFI10_Item_Checked"/>
+
+                        <TextBlock FontSize="20" Text="… habe eine aktive Vorstellungskraft, bin phantasievoll." Grid.Row="10" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BFI10_Item_10_1" GroupName="BFI10_10"  Grid.Column="1" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_10_2" GroupName="BFI10_10"   Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_10_3" GroupName="BFI10_10"   Grid.Column="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_10_4" GroupName="BFI10_10"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="10" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BFI10_Item_Checked"/>
+                        <RadioButton x:Name="BFI10_Item_10_5" GroupName="BFI10_10"   Grid.Column="5" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BFI10_Item_Checked"/>
+                    </Grid>
+                    <Button x:Name="btn_BFI10_finished" Content="Fertig" CornerRadius="10" FontSize="40" Background="OrangeRed" HorizontalAlignment="Center" Height="71" Margin="0,80,0,20" VerticalAlignment="Top" Width="352" Click="Btn_BFI10_finished_Click"/>
+
+                </StackPanel>
+            </ScrollViewer>
+
+        </RelativePanel>
+    </Grid>
+</Page>

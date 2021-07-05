@@ -1,0 +1,581 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <NotifUpdate>
+    <NotifUpdateA>
+      <message1>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel manuell auf Drucker 1 an!</body>
+      </message1>
+      <message2>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message2>
+      <message3>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer halbautomatisch auf Drucker 1 an!</body>
+      </message3>
+      <message4>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message4>
+      <message5>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler automatisch auf Drucker 1 an!</body>
+      </message5>
+      <message6>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message6>
+      <message7>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message7>
+      <message8>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message8>
+      <message9>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message9>
+      <message10>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message10>
+      <message11>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message11>
+      <message12>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message12>
+      <message13>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message13>
+      <message14>
+        <title></title>
+        <body></body>
+      </message14>
+    </NotifUpdateA>
+    <NotifUpdateB>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie anschließend bitte das Produkt mit dem Messschieber und tragen die Daten in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateB>
+    <NotifUpdateC>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie anschließend bitte das Produkt mit dem Messschieber und tragen die Daten in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateC>
+    <NotifUpdateD>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie anschließend bitte das Produkt mit dem Messschieber und tragen die Daten in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateD>
+    <NotifUpdateE>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateE>
+    <NotifUpdateF>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateF>
+    <NotifUpdateG>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateG>
+    <NotifUpdateH>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateH>
+    <NotifUpdateI>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateI>
+    <NotifUpdateJ>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie anschließend bitte das Produkt mit dem Messschieber und tragen die Daten in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateJ>
+    <NotifUpdateK>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Anschließend bitte das Produkt mit dem Messschieber messen und die Daten in das Protokoll eintragen!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateK>
+    <NotifUpdateL>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie eine Klammer automatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Tragen Sie anschließend die angezeigten Maße in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Würfel manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie anschließend bitte das Produkt mit dem Messschieber und tragen die Daten in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte fertigen Sie einen Aufwickler halbautomatisch auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Überprüfen Sie anschließend das Produkt mit der Lehre und tragen das Ergebnis in das Protokoll ein!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 1 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Bitte messen Sie nach Fertigstellung den Einkaufchip mittels Messschieber an Drucker 1 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body>Fertige Teil „Einkaufschip“ manuell auf Drucker 2 an!</body>
+      </message>
+      <message>
+        <title></title>
+        <body>Messen Sie bitte nach Fertigstellung den Einkaufschip mittels Messschieber an Drucker 2 und tragen die Daten ins Protokoll ein! </body>
+      </message>
+      <message>
+        <title></title>
+        <body></body>
+      </message>
+    </NotifUpdateL>
+  </NotifUpdate>
+</root>

@@ -1,0 +1,143 @@
+﻿<Page
+    x:Class="WeDaESy.BIT"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:WeDaESy"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+
+    <Grid>
+        <AppBarButton Icon="Back" Click="AppBarButton_Click" />
+        <RelativePanel>
+            <TextBlock x:Name="Title_BIT" RelativePanel.AlignHorizontalCenterWithPanel="True" HorizontalAlignment="Center" Margin="0,50,0,0" FontSize="40" Text="Brief Inventory of Thriving" />
+            <TextBlock x:Name="Instructions_BIT" RelativePanel.Below="Title_BIT" FontStyle="Italic" RelativePanel.AlignHorizontalCenterWith="Title_BIT" FontSize="20" Margin="0,20,0,0">
+                <TextBlock.Text>
+                    Bitte lesen Sie die folgenden Aussagen und beantworten Sie jede Frage anhand der unten aufgeführten Skala.
+                </TextBlock.Text>
+            </TextBlock>
+            <TextBlock x:Name="Label_Scale" ></TextBlock>
+            <ScrollViewer Margin="0,30,0,0" HorizontalScrollBarVisibility="Auto" RelativePanel.Below="Instructions_BIT" RelativePanel.AlignHorizontalCenterWith="Title_BIT" HorizontalScrollMode="Auto" VerticalScrollMode="Auto">
+                <StackPanel>
+                    <Grid RowSpacing="10">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                            <ColumnDefinition Width="Auto" />
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                            <RowDefinition Height="44*" />
+                        </Grid.RowDefinitions>
+                        <Border Grid.Row="1" Grid.ColumnSpan="6" BorderBrush="Black" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="2" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="3" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="4" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="5" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="6" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="7" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="8" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="9" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Row="10" Grid.ColumnSpan="6" BorderBrush="LightGray" BorderThickness="0 1 0 0"/>
+                        <Border Grid.Column="0" Grid.RowSpan="11" BorderBrush="Black" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="1" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="2" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="3" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+                        <Border Grid.Column="4" Grid.RowSpan="11" BorderBrush="LightGray" BorderThickness="0 0 1 0"/>
+
+                        <TextBlock Text="Stimme gar nicht zu" FontSize="20" Grid.Column="1" Grid.Row="0" Padding="5 0 5 0"/>
+                        <TextBlock Text="Stimme nicht zu" FontSize="20" Grid.Column="2" Grid.Row="0" Padding="5 0 5 0"/>
+                        <TextBlock FontSize="20" Grid.Column="3" Grid.Row="0" Padding="5 0 5 0"><Run Text="Stimme weder zu " /><LineBreak /><Run Text="noch nicht zu" /></TextBlock>
+                        <TextBlock Text="Stimme zu" FontSize="20" Grid.Column="4" Grid.Row="0" Padding="5 0 5 0"/>
+                        <TextBlock Text="Stimme völlig zu" FontSize="20" Grid.Column="5" Grid.Row="0" Padding="5 0 5 0"/>
+                        
+
+                        <TextBlock TextWrapping="WrapWholeWords" FontSize="20" Text="Mein Leben hat ein klares Ziel" Margin="0,0,0,0" Grid.Row="1" Grid.RowSpan="1" />
+                        <RadioButton x:Name="BIT_Item_1_1" GroupName="BIT_1" Grid.Column="1" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_1_2" GroupName="BIT_1" Grid.Column="2" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_1_3" GroupName="BIT_1" Grid.Column="3" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_1_4" GroupName="BIT_1" Grid.Column="4" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_1_5" GroupName="BIT_1" Grid.Column="5" HorizontalAlignment="Center" Grid.Row="1" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Ich sehe meiner Zukunft optimistisch entgegen" Grid.Row="2" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_2_1" GroupName="BIT_2" Grid.Column="1" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_2_2" GroupName="BIT_2" Grid.Column="2" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_2_3" GroupName="BIT_2" Grid.Column="3" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_2_4" GroupName="BIT_2" HorizontalAlignment="Center" Grid.Column="4" Grid.Row="2" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_2_5" GroupName="BIT_2" Grid.Column="5" Grid.Row="2" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Mein Leben läuft gut" Grid.Row="3" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_3_1" GroupName="BIT_3"  Grid.Column="1" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_3_2" GroupName="BIT_3"   Grid.Column="2" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_3_3" GroupName="BIT_3"   Grid.Column="3" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_3_4" GroupName="BIT_3"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="3" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_3_5" GroupName="BIT_3"   Grid.Column="5" Grid.Row="3" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Ich fühle mich meistens gut" Grid.Row="4" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_4_1" GroupName="BIT_4"  Grid.Column="1" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_4_2" GroupName="BIT_4"   Grid.Column="2" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_4_3" GroupName="BIT_4"   Grid.Column="3" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_4_4" GroupName="BIT_4"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="4" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_4_5" GroupName="BIT_4"   Grid.Column="5" Grid.Row="4" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Was ich im Leben tue ist wertvoll und erstrebenswert" Grid.Row="5" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_5_1" GroupName="BIT_5"  Grid.Column="1" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_5_2" GroupName="BIT_5"   Grid.Column="2" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_5_3" GroupName="BIT_5"   Grid.Column="3" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_5_4" GroupName="BIT_5"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="5" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_5_5" GroupName="BIT_5"   Grid.Column="5" Grid.Row="5" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" TextWrapping="WrapWholeWords" Text="Wenn ich mich einer Sache voll und ganz zuwende, kann ich darin auch erfolgreich sein" Grid.Row="6" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_6_1" GroupName="BIT_6"  Grid.Column="1" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_6_2" GroupName="BIT_6"   Grid.Column="2" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_6_3" GroupName="BIT_6"   Grid.Column="3" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_6_4" GroupName="BIT_6"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="6" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_6_5" GroupName="BIT_6"   Grid.Column="5" Grid.Row="6" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Ich erreiche die meisten meiner Ziele" Grid.Row="7" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_7_1" GroupName="BIT_7"  Grid.Column="1" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_7_2" GroupName="BIT_7"   Grid.Column="2" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_7_3" GroupName="BIT_7"   Grid.Column="3" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_7_4" GroupName="BIT_7"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="7" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_7_5" GroupName="BIT_7"   Grid.Column="5" Grid.Row="7" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Bei den meisten meiner Aktivitäten bin ich voller Energie" Grid.Row="8" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_8_1" GroupName="BIT_8"  Grid.Column="1" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_8_2" GroupName="BIT_8"   Grid.Column="2" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_8_3" GroupName="BIT_8"   Grid.Column="3" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_8_4" GroupName="BIT_8"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="8" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_8_5" GroupName="BIT_8"   Grid.Column="5" Grid.Row="8" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Es gibt Menschen, die mich als Mensch schätzen" Grid.Row="9" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_9_1" GroupName="BIT_9"  Grid.Column="1" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_9_2" GroupName="BIT_9"   Grid.Column="2" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_9_3" GroupName="BIT_9"   Grid.Column="3" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_9_4" GroupName="BIT_9"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="9" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_9_5" GroupName="BIT_9"   Grid.Column="5" Grid.Row="9" HorizontalAlignment="Center" VerticalAlignment="Center" Checked="BIT_Item_Checked" />
+
+                        <TextBlock FontSize="20" Text="Ich fühle mich meiner Gemeinde/meinem Viertel zugehörig" Grid.Row="10" Margin="0,0,0,0" Width="Auto" Height="Auto" HorizontalAlignment="Left" />
+                        <RadioButton x:Name="BIT_Item_10_1" GroupName="BIT_10"  Grid.Column="1" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_10_2" GroupName="BIT_10"   Grid.Column="2" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_10_3" GroupName="BIT_10"   Grid.Column="3" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_10_4" GroupName="BIT_10"  HorizontalAlignment="Center" Grid.Column="4" Grid.Row="10" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BIT_Item_Checked" />
+                        <RadioButton x:Name="BIT_Item_10_5" GroupName="BIT_10"   Grid.Column="5" Grid.Row="10" HorizontalAlignment="Center" VerticalAlignment="Center" Width="Auto" Height="Auto" Checked="BIT_Item_Checked" />
+                    </Grid>
+                    <Button x:Name="btn_BIT_finished" Content="Fertig" CornerRadius="10" FontSize="40" Background="OrangeRed" HorizontalAlignment="Center" Margin="0,80,0,20" Height="71" VerticalAlignment="Top" Width="352" Click="Btn_BIT_finished_Click" />
+                </StackPanel>
+            </ScrollViewer>
+        </RelativePanel>
+    </Grid>
+</Page>
