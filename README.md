@@ -51,9 +51,12 @@ _**Table 2: Theoretical findings for the decision algorithm**_
 |  |  | Highly pronounced: Retain| 3\) |
 
 _Notes:_
-1) _No evidence in literature that given combination of workload and satisfaction should not be increased based on personality trait expression._
-2) _High workload is associated with low satisfaction, regardless of the expression of the personality trait. Therefore, workload should be decreased (Moray, 1988). At the same time, high workload leads to poorer performance, so reduce workload to better perform, even if it is easier (Wickens & Tsang, 2015). Higher workload leads to faster fatigue, which in turn has a negative impact on performance (Fan & Smith, 2017)._
-3) _High satisfaction is associated with high performance (Edwards et al., 2008; Halkos & Bousinakis, 2010). Therefore, should be maintained in this combination of difficulty._ 
+
+1\) _No evidence in literature that given combination of workload and satisfaction should not be increased based on personality trait expression._
+
+2\) _High workload is associated with low satisfaction, regardless of the expression of the personality trait. Therefore, workload should be decreased (Moray, 1988). At the same time, high workload leads to poorer performance, so reduce workload to better perform, even if it is easier (Wickens & Tsang, 2015). Higher workload leads to faster fatigue, which in turn has a negative impact on performance (Fan & Smith, 2017)._
+
+3\) _High satisfaction is associated with high performance (Edwards et al., 2008; Halkos & Bousinakis, 2010). Therefore, should be maintained in this combination of difficulty._ 
 
 # References
 Barrick, M. R., Mount, M. K., & Judge, T. A. (2001). Personality and Performance at the Beginning of the New Millennium: What Do We Know and Where Do We Go Next? International Journal of Selection and Assessment, 9(1&2), 9–30. https://doi.org/10.1111/1468-2389.00160
